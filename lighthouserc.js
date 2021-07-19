@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
 	collect: {
-      staticDistDir: './',
+      url: ['http://localhost:41905/lighthouse-ci/index.html'],
     },
     upload: {
       target: 'temporary-public-storage',
